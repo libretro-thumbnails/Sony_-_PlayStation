@@ -1,0 +1,5 @@
+language: bash
+script:
+    - find Named* -name '*[&\*:`áàãăâéèêíìĩóòõôơúùũưýỳđ<>?\\|"*]*' | grep "." && echo "The above are invalid filenames" && return 1 || echo "No invalid files found"
+notifications:
+  email: false
