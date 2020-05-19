@@ -1,1 +1,0 @@
-xcopy /b /i "Driver 2 (USA) (Disc 1 of 2) (Rev 1).png" "..\Named_Titles\Driver 2 (USA) (Disc 1 of 2) (Rev 1).png"
